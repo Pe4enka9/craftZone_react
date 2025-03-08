@@ -12,7 +12,7 @@ export default function App() {
 
     return (
         <div className="container">
-            <Header token={token}/>
+            <Header token={token} apiUrl={apiUrl} setToken={setToken}/>
 
             <Routes>
                 <Route path="/" element={<Home token={token}/>}/>
