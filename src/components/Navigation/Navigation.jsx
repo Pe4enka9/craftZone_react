@@ -24,7 +24,7 @@ export default function Navigation({apiUrl, token, setToken}) {
                 </>
             ) : (
                 <>
-                    <NavLink to="/">Главная</NavLink>
+                    <NavLink to="/profile">Профиль</NavLink>
                     <Link to="" onClick={handleLogout}>Выход</Link>
                 </>
             )}

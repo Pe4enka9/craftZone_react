@@ -51,7 +51,7 @@ export default function Login({apiUrl, token, setToken}) {
     };
 
     return (
-        <section className="register mb-4">
+        <section className="login mb-4">
             <h1 className="mb-2">Авторизация</h1>
 
             <form onSubmit={handleSubmit}>
