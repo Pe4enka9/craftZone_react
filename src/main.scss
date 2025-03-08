@@ -2,12 +2,14 @@
 
 @import "scss/variables";
 @import "scss/form";
-@import "scss/loader";
+@import "components/Loader/loader";
 @import "components/Navigation/navigation";
 @import "components/Header/header";
 @import "components/Footer/footer";
 @import "components/Button/button";
 @import "components/Profile/profile";
+@import "components/Home/home";
+@import "components/ProductCard/productCard";
 
 * {
   margin: 0;

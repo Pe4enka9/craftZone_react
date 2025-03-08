@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import {useNavigate} from "react-router-dom";
-import Loader from "../Loader.jsx";
+import Loader from "../Loader/Loader.jsx";
 
 export default function Profile({apiUrl, token}) {
     const navigate = useNavigate();

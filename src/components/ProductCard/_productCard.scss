@@ -1,0 +1,17 @@
+.card {
+  padding: 2rem;
+
+  background-color: $main;
+
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+
+  text-decoration: none;
+}
+
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
