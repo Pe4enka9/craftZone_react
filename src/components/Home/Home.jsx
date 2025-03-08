@@ -8,11 +8,9 @@ export default function Home({apiUrl}) {
     }, []);
 
     const [products, setProducts] = useState([]);
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        setLoading(true);
-
         fetch(`${apiUrl}/products`)
             .then(res => res.json())
             .then(products => setProducts(products.data))

@@ -6,7 +6,7 @@ export default function Profile({apiUrl, token}) {
     const navigate = useNavigate();
 
     const [user, setUser] = useState({});
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         document.title = 'Профиль';
@@ -15,8 +15,6 @@ export default function Profile({apiUrl, token}) {
     }, [navigate, token]);
 
     useEffect(() => {
-        setLoading(true);
-
         fetch(`${apiUrl}/user`, {headers: {Authorization: `Bearer ${token}`}})
             .then(res => res.json())
             .then(user => setUser(user))
