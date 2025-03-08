@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 
 export default function ProductCard({product}) {
     return (
-        <Link to={`/product/${product.id}`} className="card">
+        <Link to={`/products/${product.id}`} className="card">
             <div className="card-img"></div>
             <div className="card-body">
                 <h3>{product.title}</h3>

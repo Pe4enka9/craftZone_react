@@ -180,6 +180,12 @@ footer .logo {
   gap: 1rem;
 }
 
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 * {
   margin: 0;
   padding: 0;
