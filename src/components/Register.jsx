@@ -16,7 +16,7 @@ export default function Register({apiUrl, token}) {
             .then(res => res.json())
             .then(roles => setRoles(roles))
             .catch(err => console.error('Ошибка', err));
-    }, [apiUrl]);
+    }, [apiUrl, navigate, token]);
 
     const [formData, setFormData] = useState({
         first_name: '',
