@@ -1,0 +1,24 @@
+footer {
+  width: 80%;
+
+  padding: 1.5rem 4rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: $main;
+
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+footer .logo {
+  text-decoration: none;
+}

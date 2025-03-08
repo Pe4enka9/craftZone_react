@@ -1,0 +1,24 @@
+.btn {
+  padding: .5em .8em;
+
+  width: fit-content;
+
+  background-color: $secondary;
+
+  outline: none;
+  border: none;
+  -webkit-border-radius: $lowRadius;
+  -moz-border-radius: $lowRadius;
+  border-radius: $lowRadius;
+
+  cursor: pointer;
+  transition: background-color .2s;
+}
+
+.btn:hover {
+  background-color: $secondaryHover;
+}
+
+.btn:disabled {
+  background-color: $disabled;
+}

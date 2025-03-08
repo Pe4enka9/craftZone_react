@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+form {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-container input,
+.input-container select,
+.input-container option {
+  padding: 0.5em 0.8em;
+  background-color: #003459;
+  outline: none;
+  border: 0.2rem solid #003459;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+  transition: border-color 0.5s ease;
+}
+
+.input-container input:focus {
+  border-color: #007EA7;
+}
+
+.error {
+  color: #ed6666;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+nav a {
+  padding: 0.5em 0.8em;
+  display: block;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+nav a:hover {
+  background-color: #016888;
+}
+
+nav a.active {
+  background-color: #007EA7;
+}
+
+header {
+  padding: 1.5rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #003459;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+}
+
+header .logo {
+  text-decoration: none;
+}
+
+footer {
+  width: 80%;
+  padding: 1.5rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #003459;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+footer .logo {
+  text-decoration: none;
+}
+
+.btn {
+  padding: 0.5em 0.8em;
+  width: fit-content;
+  background-color: #007EA7;
+  outline: none;
+  border: none;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: #016888;
+}
+
+.btn:disabled {
+  background-color: #00506c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #CFDEE7;
+  font: 10px "Roboto", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+body {
+  background-color: #00171F;
+}
+
+a, label, input, select, option, .btn, .error {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+/*# sourceMappingURL=main.css.map */

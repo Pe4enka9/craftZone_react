@@ -1,0 +1,37 @@
+form {
+  width: 30rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.input-container input,
+.input-container select,
+.input-container option {
+  padding: .5em .8em;
+
+  background-color: $main;
+  
+  outline: none;
+  border: .2rem solid $main;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+
+  transition: border-color .5s ease;
+}
+
+.input-container input:focus {
+  border-color: $secondary;
+}
+
+.error {
+  color: $error;
+}

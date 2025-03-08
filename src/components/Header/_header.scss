@@ -1,0 +1,17 @@
+header {
+  padding: 1.5rem 4rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: $main;
+
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+header .logo {
+  text-decoration: none;
+}

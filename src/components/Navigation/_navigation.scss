@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+nav a {
+  padding: .5em .8em;
+
+  display: block;
+
+  -webkit-border-radius: $lowRadius;
+  -moz-border-radius: $lowRadius;
+  border-radius: $lowRadius;
+
+  text-decoration: none;
+  transition: background-color .2s;
+}
+
+nav a:hover {
+  background-color: $secondaryHover;
+}
+
+nav a.active {
+  background-color: $secondary;
+}
